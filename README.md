@@ -44,6 +44,9 @@ pip install -r requirements.txt
 # Install this package
 pip install -e .
 ```
+
+Dawn wrote a detailed instruction to setup environment in [issue #9](https://github.com/changwoonchoi/3Doodle/issues/9), so if you encounter any problem during installation, please refer to it.
+
 ## Dataset
 You can download our dataset and SfM point clouds from this [link](https://drive.google.com/drive/folders/1tTVVd78TAJIT6GJcfrfKIWN_EyR92FmZ).
 
