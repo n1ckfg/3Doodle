@@ -159,6 +159,7 @@ class CurveRenderer(nn.Module):
                     self.num_strokes
                 )
             else:
+                print("You are not using SfM points or the points are not available. Randomly initialize the starting points.")
                 randomized = [
                     self.set_random_point(self.boundaries, device=self.device)
                     + self.center
